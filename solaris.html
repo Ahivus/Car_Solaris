@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Инструкция для IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- нормализация стилей -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="sol.css">
+    
+    
+    
+</head>
+<body class="text-center">
+  
+  
+  <div class="container">
+  <div id="imgHolder" class="imgHolder">
+    <!--<div class="top_title">
+    <h1 id="top-header">Solaris</h1>
+    <h2>Классификация</h2>
+    </div>-->
+    <div id="colorsSelector" class="colorsSelector">
+    <div class="crug">
+     <div class="colorItem colorBlue" data-img-path="img/blue.png"></div>
+     <div class="colorItem colorRed" data-img-path="img/red.png"></div>
+     <div class="colorItem colorWhite" data-img-path="img/white.png"></div>
+     <div class="colorItem colorBlack" data-img-path="img/black.png"></div>
+     <div class="colorItem colorGrey" data-img-path="img/grey.png"></div>
+     <div class="colorItem colorGold" data-img-path="img/gold.png"></div> 
+     </div>
+     <img src="img/black.png" alt="Автомобиль">  
+  </div>
+    
+    <div class="model-summary">
+       <div class="model_in">
+        <div class="model-name">Hundai Solaris</div><br>
+        <div class="model-specs" id="modelSpecs"></div>
+        <div class="model-price" id="modelPrice"></div>
+        <div class="model-price" id="modelPriceUSD"></div>
+        <div class="model-price" id="modelPriceEUR"></div>
+        <button class="button1">Заказать</button> 
+        </div>  
+     </div>
+     
+     
+     
+    
+  </div>
+  </div>
+  <div class="container">
+  <form id="autoForm" class="autoForm">
+     
+     <div class="row">
+     <h2>Настрой авто для себя</h2>
+      <!------->
+       <div class="col-1-of-3">
+         <h4>Двигатель</h4>
+         <div class="form-block">
+            <input type="radio" name="engine" id="engine1400" value="624900" checked>
+            <label for="engine1400">1.4 л (100 л.с)</label> 
+         </div>
+         <div class="form-block">
+            <input type="radio" name="engine" id="engine1600" value="749900" checked>
+            <label for="engine1600">1.6 л (123 л.с)</label>    
+         </div>        
+       </div>
+     <!------->  
+      <div class="col-1-of-3">
+         <h4>Коробка передач</h4>
+         <div class="form-block">
+            <input type="radio" name="transmission" id="transmission6MT" value="0" checked>
+            <label for="transmission6MT">Ручная, 6 ступеней (6 МТ)</label> 
+         </div>
+         <div class="form-block">
+            <input type="radio" name="transmission" id="transmission6MT" value="125000">
+            <label for="transmission6MT">Автомат, 6 ступеней (6 АТ)</label>   
+         </div>        
+       </div>                             
+    <!------->  
+       <div class="col-1-of-3">
+         <h4>Пакет (дополнительные опции)</h4>
+         <div class="form-block">
+            <input type="radio" name="package" id="transmission6MT" value="0" checked>
+            <label for="packageActive">Active</label> 
+         </div>
+         <div class="form-block">
+            <input type="radio" name="package" id="packageActivePlus" value="85000">
+            <label for="packageActivePlus">Active Plus (кондиционер)</label>   
+         </div> 
+         <div class="form-block">
+            <input type="radio" name="package" id="packageComfort" value="130000">
+            <label for="packageComfort">Comfort (климатконтроль)</label>   
+         </div>        
+       </div>                                                                                                                
+    <!------->                                                     
+     </div>
+ </form>
+  </div>
+  
+  
+  
+  
+  
+  
+  <script src="jquery.min.js"></script>
+   <script src="sol.js"></script>
+    
+</body>
+</html>

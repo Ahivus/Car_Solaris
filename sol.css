@@ -1,0 +1,133 @@
+.container{
+    width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+   width: 770px;
+    margin-left: 10px
+  
+    
+}
+.colorItem.colorBlue{
+    
+    background: blue;
+    float: left;
+    
+}
+.colorItem.colorRed{
+    
+    background: red;
+    float: left
+}
+.colorItem.colorWhite{
+   
+    background:antiquewhite;
+    float: left;
+}
+.colorItem.colorBlack{
+    
+    background:black;
+    float: left;
+    
+}
+.colorItem.colorGrey{
+    
+    background:grey;
+    float: left;
+    
+}
+.colorItem.colorGold{
+    
+    background:#ffae63;
+    float: left;
+    
+}
+#modelPrice{
+    color: blue;
+}
+.colorsSelector{
+    text-align: center;
+    float: left;
+    width: 600px;
+    
+    
+}
+.colorItem{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin-left: 20px;
+     
+}
+.crug{
+    padding-left: 100px
+}
+.model-summary{
+    
+    font-size: 20px;
+    background: rgba(55, 227, 16, 0.1);
+    float: left;
+   margin-left: 174px;
+    margin-top: 0px;
+    width: 350px;
+    height: 350px;
+    
+}
+.button1{
+    background:blue; 
+    color: aliceblue;
+    width: 140px;
+    font-size: 28px;
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    border-radius: 50px;
+   letter-spacing: 1.6px;
+}
+.model_in{
+    width: 250px;
+    height: 340px;
+    margin-left: 50px;
+    margin-top: 60px;
+    
+}
+.model-specs{
+    font-size: 16px
+}
+.model-name{
+    font-size: 24px;
+    color: blue;
+}
+.model-price{
+    margin-top: 10px;
+    font-size: 25px;
+}
+#modelPriceUSD{
+  margin-top: 10px; 
+  margin-bottom: 10px;
+    color: green;
+}
+#modelPriceEUR{
+  margin-top: 10px; 
+  margin-bottom: 10px;
+    color: green;
+}
+
+.col-1-of-3{
+    float: left;
+    margin-left: 76px;
+}
+form{
+    width: 800px;
+    
+}
+.row h2{
+    color: blue;
+    width: 290px;
+    margin-left: 80px;
+}
+body {
+    background-image: url(img/bg2.jpg)
+}
+
